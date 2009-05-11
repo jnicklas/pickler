@@ -23,6 +23,14 @@ The pull and push commands map the story's name into the "Feature: ..." line
 and the story's description with an additional two space indent into the
 feature's body.  Keep this in mind when entering stories into Pivotal Tracker.
 
+== Writing stories
+
+In order for pickler to pick up your stories from tracker, they need to meet the following criteria:
+
+* They must be wellformed cucumber stories
+* They must contain the word 'Scenario' (or the equivalent in your localized stories)
+* Their status must be set to 'started' at least
+
 == Usage
 
   pickler pull
